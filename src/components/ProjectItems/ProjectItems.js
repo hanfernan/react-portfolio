@@ -1,13 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import Card from "../Card/Card"
 import "./style.css";
 import spaceDash from "../../images/space-dash.png";
 import dungeon from "../../images/dungeon-maintenance.png";
 import password from "../../images/password-generator.png";
 import note from "../../images/note-taker.png";
-import dungeon from "../../images/dungeon-maintenance.png";
-import dungeon from "../../images/dungeon-maintenance.png"
+import code from "../../images/code-quiz.png";
+import eCommerce from "../../images/e-commerce.PNG";
 
 const projects = [
     {
@@ -26,18 +25,18 @@ const projects = [
         description:""
     },
     {
-        src: spaceDash,
-        title: "E-Commerce Backend",
-        description:""
-    },
-    {
         src: note,
         title: "Note Taker",
         description:""
     },
     {
-        src: spaceDash,
-        title: "Space Dashboard",
+        src: code,
+        title: "Code Quiz",
+        description:""
+    },
+    {
+        src: eCommerce,
+        title: "E-Commerce Backend",
         description:""
     }
 ]
@@ -48,35 +47,16 @@ function ProjectItems() {
             <h1>Here's a look at my work:</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
-                    <ul className="cards__item">
+                    {projects.map((project, i) => (
+                        <Card key={i} {...project} />  
+                         ))}
+                    {/* <ul className="cards__item">
                         <Card 
-                        src='./images/space-dash'
-                        text='Space Dashboard Description'
+                        src={projects.src}
+                        title={projects.title}
+                        description={projects.description}
                         path='/projects'/>
-                    </ul><ul className="cards__item">
-                        <Card 
-                        // src=''
-                        text='Dungeon Maintenance'
-                        path='/projects'/>
-                    </ul>
-                    <ul className="cards__item">
-                        <Card 
-                        // src=''
-                        text='Password Generator'
-                        path='/projects'/>
-                    </ul>
-                    <ul className="cards__item">
-                        <Card 
-                        // src=''
-                        text='Note Taker'
-                        path='/projects'/>
-                    </ul>
-                    <ul className="cards__item">
-                        <Card 
-                        // src=''
-                        text='E-Commerce'
-                        path='/projects'/>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </div>
