@@ -43,7 +43,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a href={Resume} target="_blank" className='nav-links'>
-                Resume
+              <i class="fas fa-download"/>Resume
               </a>
             </li>
           </ul>

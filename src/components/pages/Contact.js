@@ -3,7 +3,8 @@ import '../../App.css'
 function Contact() {
   return (
     <>
-      <div><h2>Contact Me!</h2></div>
+    <div className="contact">
+    <div><h2>Contact Me!</h2></div>
       <div>
         <div>850.384.1535</div>
         <div>
@@ -21,6 +22,8 @@ function Contact() {
           >LinkedIn</a>
         </div>
       </div>
+    </div>
+      
     </>
   )
 }
