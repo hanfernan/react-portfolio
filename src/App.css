@@ -7,7 +7,6 @@
   
   .home,
   .about,
-  .projects,
   .contact {
     background-color: tomato;
     display: flex;
@@ -15,6 +14,14 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+  }
+
+  .contact-link > a:link {
+    color: black;
+  }
+
+  .contact > a:visited {
+    color: white;
   }
   
   
