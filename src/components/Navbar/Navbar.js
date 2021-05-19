@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Resume from '../../assets/Hannah_Fernanes_Martin_MERNStack_Res.pdf'
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -41,9 +42,9 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/contact' className='nav-links'>
+              <a href={Resume} target="_blank" className='nav-links'>
                 Resume
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

@@ -1,6 +1,4 @@
 import '../../App.css'
-import Resume from '../../assets/Hannah_Fernanes_Martin_MERNStack_Res.pdf'
-
 
 function Contact() {
   return (
@@ -21,12 +19,6 @@ function Contact() {
             href="https://www.linkedin.com/in/hannah-fernandes-martin/"
             target="_blank"
           >LinkedIn</a>
-        </div>
-        <div>
-          <a
-            href={Resume}
-            target="_blank"
-          >Resume</a>
         </div>
       </div>
     </>
