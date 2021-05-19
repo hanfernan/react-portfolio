@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" onClick={closeMobileMenu} className="navbar-logo">
             HFM <i className='far fa-smile' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
