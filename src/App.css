@@ -16,11 +16,12 @@
     font-size: 3rem;
   }
 
-  .contact-link > a:link {
+  .contact-link{
     color: black;
+    transition: all 0.3s;
   }
 
-  .contact > a:visited {
+  .contact-link:hover {
     color: white;
   }
   
