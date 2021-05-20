@@ -38,6 +38,7 @@ h1 {
 }
 
 .cards__item__link {
+  background-color: white;
   display: flex;
   flex-flow: column;
   width: 100%;
@@ -75,7 +76,14 @@ h1 {
   object-fit: cover;
   transition: all 0.2s linear;
 }
+.project-link {
+  color: black;
+  transition: all 0.3s;
+}
 
+.project-link:hover {
+  color: tomato;
+}
 .cards__item__img:hover {
   transform: scale(1.1);
 }
@@ -85,9 +93,14 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
-  font-size: 18px;
+  color: black;
+  font-size: 22px;
   line-height: 24px;
+  margin: auto;
+}
+
+.cards__item__description {
+  padding: 20px;
 }
 
 @media only screen and (min-width: 1200px) {
