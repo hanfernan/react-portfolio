@@ -14,10 +14,11 @@ function App() {
             <Router>
                 <Navbar />
                 <Switch>
-                    <Route path="/" exact component = {Home}/>                    
-                    <Route path="/about" exact component = {About}/>
-                    <Route path="/projects" exact component = {Project}/>
-                    <Route path="/contact" exact component = {Contact}/>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/react-portfolio" exact component={Home} />
+                    <Route path="/about" exact component={About} />
+                    <Route path="/projects" exact component={Project} />
+                    <Route path="/contact" exact component={Contact} />
                 </Switch>
                 <Footer />
             </Router>

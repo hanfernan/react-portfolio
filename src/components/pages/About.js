@@ -1,6 +1,5 @@
 import '../../App.css'
 import headshot from "../../assets/images/circle-headshot.png"
-import Button from "../Button/button"
 
 function About() {
   return (
@@ -12,7 +11,7 @@ function About() {
           {/* </div> */}
           <div className="about-text">
             <p>
-              Hi, I'm Hannah! I'm a MERN Stack Developer with a detail-oriented
+              Hi, I'm Hannah Fernandes-Martin! I'm a MERN Stack Developer with a detail-oriented
               eye and an excitement for innovation. I have an extensive background
               in art and design and I love problem-solving. I'm excited to work on
               more projects, so please feel free to reach out via my contact info!

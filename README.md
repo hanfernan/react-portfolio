@@ -1,3 +1,16 @@
+# React Portfolio
+
+## About
+
+I wrote all of the code for this personal react portfolio site.
+
+## Deployed Site
+
+View the deployed site [here](https://hanfernan.github.io/react-portfolio/)
+
+## Screenshot
+
+![screenshot](portfolio-screenshot.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
