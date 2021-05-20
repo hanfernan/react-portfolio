@@ -1,28 +1,63 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;    
-  }
-  
-  .home,
-  .about,
-  .contact {
-    background-color: tomato;
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
 
-  .contact-link{
-    color: black;
-    transition: all 0.3s;
-  }
+.home,
+.about,
+.contact {
+  background-color: tomato;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3rem; */
+}
 
-  .contact-link:hover {
-    color: white;
-  }
-  
-  
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+}
+.about-photo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+.about-text {
+  width: 60%;
+  /* margin: 10px 10px 10px 10px; */
+
+}
+
+.about-text p {
+  font-size: 20px;
+}
+
+.about-text br {
+  font-size: 1rem;
+}
+
+.contact-link {
+  color: black;
+  transition: all 0.3s;
+}
+
+.contact-link:hover {
+  color: white;
+}

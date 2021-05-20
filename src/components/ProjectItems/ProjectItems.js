@@ -56,7 +56,6 @@ const projects = [
 function ProjectItems() {
     return (
         <div className='cards'>
-            <h1>Here are some things I've worked on:</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     {projects.map((project, i) => (
