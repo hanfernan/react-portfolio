@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Card/Card"
 import "./style.css";
+import local from "../../assets/images/the-local.png";
 import spaceDash from "../../assets/images/space-dash.png";
 import dungeon from "../../assets/images/dungeon-maintenance.png";
 import password from "../../assets/images/password-generator.png";
@@ -9,6 +10,13 @@ import code from "../../assets/images/code-quiz.png";
 import eCommerce from "../../assets/images/e-commerce.PNG";
 
 const projects = [
+    {
+        src: local,
+        title: "The Local",
+        description:"It can be challenging to find out which cool bands are located right in your area. The Local is a place for fans to stay up to date with their favorite bands and discover their new favorite sounds right in their neighborhood. This app is built with React and MySQL ",
+        githubLink:"https://github.com/hanfernan/the-local",
+        deployedLink:"https://lit-retreat-16918.herokuapp.com/"
+    },
     {
         src: spaceDash,
         title: "Space Dashboard",

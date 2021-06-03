@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Resume from '../../assets/Hannah_Fernanes_Martin_MERNStack_Res.pdf'
+import Resume from '../../assets/Hannah_Fernandes-Martin_Resume.pdf'
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
