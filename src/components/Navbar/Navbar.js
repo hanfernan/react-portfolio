@@ -42,8 +42,8 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a href={Resume} target="_blank" className='nav-links'>
-              <i class="fas fa-download"/>Resume
+              <a href={Resume} target="_blank" rel="noreferrer" className='nav-links'>
+              <i className="fas fa-download"/>Resume
               </a>
             </li>
           </ul>
