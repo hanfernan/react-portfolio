@@ -9,7 +9,7 @@ function About() {
           <img src={headshot} alt="my headshot" className="about-photo" />
           <div className="about-text">
             <p>
-              Hi, I'm Hannah Fernandes-Martin! I'm a Front End Developer with a detail-oriented
+              Hi, I'm Hannah Fernandes-Martin! I'm a Front End Web Developer with a detail-oriented
               eye and an excitement for innovation. I have an extensive background
               in art and design and I love problem-solving. I'm excited to work on
               more projects, so please feel free to reach out via my contact info!
