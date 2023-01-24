@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.14abe0d1.css",
+    "main.js": "/react-portfolio/static/js/main.13baff3d.js",
+    "static/media/space-dash.png": "/react-portfolio/static/media/space-dash.5fad966c160f8a43cbd9.png",
+    "static/media/dungeon-maintenance.png": "/react-portfolio/static/media/dungeon-maintenance.8ccbbe483df175aa47ed.png",
+    "static/media/e-commerce.PNG": "/react-portfolio/static/media/e-commerce.99ce2e771016e833cb0a.PNG",
+    "static/media/the-local.png": "/react-portfolio/static/media/the-local.77b408f3fb4932202ad2.png",
+    "static/media/circle-headshot.png": "/react-portfolio/static/media/circle-headshot.5f8940e6ef53122232c3.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.05aeebe6f89a7e500b04.png",
+    "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.08d0b672239ff54877df.png",
+    "static/media/Hannah_Fernandes-Martin_Resume23.pdf": "/react-portfolio/static/media/Hannah_Fernandes-Martin_Resume23.e3cf92885a97b8238e99.pdf",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.68638b65894582835d04.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.14abe0d1.css.map": "/react-portfolio/static/css/main.14abe0d1.css.map",
+    "main.13baff3d.js.map": "/react-portfolio/static/js/main.13baff3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14abe0d1.css",
+    "static/js/main.13baff3d.js"
+  ]
+}
